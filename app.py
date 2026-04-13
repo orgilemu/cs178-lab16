@@ -6,7 +6,7 @@ This app lets a user upload an image through a web form.
 Your job (Exercise 1): replace the two placeholder bucket name strings
 below with your actual S3 bucket names.
 
-Run locally:   python app.py  (port 8888)
+Run locally:   python app.py  (port 8888) 
 Deployed via:  GitHub Actions → EC2 (same workflow as Lab 9)
 """
 

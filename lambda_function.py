@@ -18,7 +18,7 @@ from io import BytesIO
 from PIL import Image, ImageOps
 
 # The processed bucket name — must match what you set in app.py
-PROCESSED_BUCKET = os.environ.get("PROCESSED_BUCKET", "YOUR-INITIALS-image-source-processed")
+PROCESSED_BUCKET = os.environ.get("PROCESSED_BUCKET", "mt-image-source-processed")
 
 
 def lambda_handler(event, context):
